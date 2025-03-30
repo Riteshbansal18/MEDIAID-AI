@@ -1,0 +1,72 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+
+# Build files
+dist/
+build/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Firebase
+.firebase/
+firestore.rules.bak
+firestore.indexes.json.bak
+
+# Logs & Debug
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.gz
+debug.log
+stacktrace.log
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Public folder (optional, if dynamically generated)
+public/*.cache
+public/*.json
+public/*.lock
+
+# Lint & Testing
+coverage/
+eslintcache
+.jest/
+.nyc_output/
+
+# Express.js specific
+server/node_modules/
+server/dist/
+server/*.log
+server/.env
+
+# Firebase functions
+functions/node_modules/
+functions/lib/
+functions/.firebase/
+functions/.env
+functions/package-lock.json
+
+# Tailwind CSS (cache files)
+.postcssrc
+.tailwind/
